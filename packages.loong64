@@ -7,7 +7,6 @@ bcachefs-tools
 bind
 bolt
 brltty
-broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
@@ -62,7 +61,6 @@ man-pages
 mc
 mdadm
 memtest86+
-memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -77,7 +75,6 @@ nmap
 ntfs-3g
 nvme-cli
 open-iscsi
-open-vm-tools
 openconnect
 openpgp-card-tools
 openssh
@@ -117,7 +114,6 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
