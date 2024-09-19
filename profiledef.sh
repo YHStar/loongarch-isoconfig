@@ -8,8 +8,7 @@ iso_application="Loong Arch Linux Live/Rescue CD refreshed by LCPU"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
-bootmodes=('uefi-loong64.grub.esp' 'uefi-loong64.systemd-boot.esp'
-           'uefi-loong64.systemd-boot.eltorito' 'uefi-loong64.systemd-boot.eltorito')
+bootmodes=('uefi-loong64.grub.esp' 'uefi-loong64.grub.eltorito')
 arch="loong64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
