@@ -771,10 +771,11 @@ _make_bootmode_uefi-loong64.grub.esp() {
                  gfxmenu gfxterm gzio halt hfsplus iso9660 jpeg linux loadenv loopback lsefi lsefimmap \
                  minicmd normal ntfs ntfscomp part_apple part_gpt part_msdos png read reboot regexp search \
                  search_fs_file search_fs_uuid search_label serial sleep tpm udf \
-                  video xfs zstd)
+                  video xfs zstd)      
+    #no need en trans&cannot find files
     grub-mkstandalone -O loongarch64-efi \
         --modules="${grubmodules[*]}" \
-        --locales="en@quot" \
+        --locales="" \
         --themes="" \
         --sbat=/usr/share/grub/sbat.csv \
         --disable-shim-lock \
