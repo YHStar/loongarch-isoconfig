@@ -7,7 +7,7 @@ iso_publisher="Linux Club of Peking University <https://lcpu.club>"
 iso_application="Loong Arch Linux Live/Rescue CD refreshed by LCPU"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
-buildmodes=('iso' 'bootstrap')
+buildmodes=('iso' 'bootstrap' 'netboot')
 bootmodes=('uefi.grub')
 arch="loong64"
 pacman_conf="pacman.conf"
